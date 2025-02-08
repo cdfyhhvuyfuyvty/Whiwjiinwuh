@@ -1,0 +1,31 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+}
+
+#loveTimer, #weather, #voiceMessage, #pixelCanvas, #calendar {
+    margin: 20px;
+    padding: 20px;
+    background-color: #ffb6c1;
+    border-radius: 15px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #fff;
+}
+
+button {
+    background-color: #ff80ab;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff66a3;
+}

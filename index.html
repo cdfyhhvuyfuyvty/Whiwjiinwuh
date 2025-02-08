@@ -1,0 +1,47 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>小狗和Daddy的世界</title>
+    <link rel="stylesheet" href="styles.css"> <!-- 引入样式表 -->
+</head>
+<body>
+    <!-- 首页内容 -->
+    <div id="loveTimer">
+        <h2>恋爱计时器</h2>
+        <p id="timer">加载中...</p>
+    </div>
+
+    <div id="weather">
+        <h2>今日天气</h2>
+        <p id="date"></p>
+        <p id="weatherInfo"></p>
+    </div>
+
+    <div id="voiceMessage">
+        <h2>语音留言</h2>
+        <button id="recordButton">开始录音</button>
+        <audio id="audioPlayer" controls></audio>
+    </div>
+
+    <div id="pixelCanvas">
+        <canvas id="canvas" width="300" height="300"></canvas>
+        <input type="color" id="colorPicker" value="#000000" />
+        <button onclick="saveDrawing()">保存画作</button>
+    </div>
+
+    <button id="myButton">点击我！</button>
+
+    <div id="calendar">
+        <h2>日历</h2>
+        <div id="calendarDays">
+            <button class="date" data-date="2025-02-14">14</button>
+            <button class="date" data-date="2025-02-15">15</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- 引入JavaScript文件 -->
+</body>
+</html>
